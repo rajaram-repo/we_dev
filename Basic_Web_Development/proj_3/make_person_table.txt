@@ -1,0 +1,21 @@
+use jadrn068;
+
+drop table if exists person;
+
+create table person(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    fname varchar(50) NOT NULL,
+    lname varchar(100) NOT NULL,
+    gender varchar(10) NOT NULL,
+    age varchar(20) NOT NULL,
+    address varchar(100) NOT NULL,
+    phone varchar(15) NOT NULL,
+    email varchar(50) NOT NULL,
+    experience varchar(10) NOT NULL,
+    category varchar(10) NOT NULL,
+    image varchar(100) NOT NULL
+    ); 
+    
+INSERT INTO person VALUES(0,'Jim','Robeson','male','10','3456 30th St,San Diego,CA,92104','6191147894','jrobeson@yahoo.com','Novice','Teen','Jim6191147894.jpeg');    
+INSERT INTO person VALUES(0,'Robert','Jones','male','12','1512 Abbott St,San Diego,CA,92106','6191141227','rjones@gmail.com','Novice','Teen','Robert6191141227.jpg');
+INSERT INTO person VALUES(0,'Henry','Carter','male','13','914 Albion St,San Diego,CA,92106','6191145894','hcarter@yahoo.com','Novice','Teen','Henry6191145894.jpg');

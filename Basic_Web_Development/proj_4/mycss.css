@@ -1,0 +1,140 @@
+.navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  .logo1 {
+      color: #2a1506;
+      font-size: 200px;
+  }
+  .logo{
+      color: #2a1506;
+      font-size: 75px;
+      padding: 40px;
+  }
+  .logo_contact{
+      color: #2a1506;
+      font-size: 40px;
+      padding-top: 25px;
+  }
+  .about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .order_image{
+    width: 50px;
+  }
+
+  .product_image{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .index_image{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .borderless td, .borderless th {
+    border: none !important;
+  }
+
+  .myNumber{
+    width: 5em;
+  }
+
+  .myNumber_1{
+    width: 5em;
+  }
+  .myNumber_index{
+    width: 5em;
+  }
+
+  .navbar-custom {
+    background-color:#7e3f12;
+    color:#ffffff;
+    border-radius:0;
+  }
+
+  .navbar-custom .navbar-nav > li > a {
+    color:#fff;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+  }
+  .navbar-custom .navbar-nav > li > a:hover,
+  .navbar-custom .navbar-nav > li > a:focus,
+  .navbar-custom .navbar-nav > .active > a:hover,
+  .navbar-custom .navbar-nav > .active > a:focus,
+  .navbar-custom .navbar-nav > .active,
+  .navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #3f1f09;
+  }
+  .glyphicon-ice-lolly-tasted{
+    color:#2a1506;
+  }
+  .panel-primary {
+    border-color: #7e3f12;
+  }
+  .panel > .panel-heading {
+    background-image: none;
+    background-color: #7e3f12;
+    color: white;
+  }
+  .panel > .panel-body{
+    background-image: none;
+    background-color: #faf0e8;
+    color: #150a03;
+  }
+  .panel > .panel-footer{
+    background-image: none;
+    background-color: #f1d2bb;
+    color: #150a03;
+  }
+  .btn,
+  .btn:active,
+  .btn:visited{
+    background-color: #542a0c !important;
+    border-color: #542a0c !important;
+    color: white !important;
+  }
+  .btn:hover{
+    background-color: #2a1506;
+    border-color: #2a1506;
+    color: white;
+  }
+  .sidenav-link{
+    text-align: left;
+    padding-left: 40px;
+  }
+  .sidenav-link > p > a {
+    color: #150a03;
+  }
+  .sidenav-link > p > a:hover, 
+  .sidenav-link > p > a:active {
+    font-weight:bold;
+  }
+  .product_top_path{
+    text-align: left;
+    color: #150a03;
+  }
+  .fade_add{
+    color: red;
+    font-weight: bold;
+  }
